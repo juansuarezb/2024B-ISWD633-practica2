@@ -1,3 +1,1 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+Antes de realizar la práctica, mis conocimientos sobre el manejo de contenedores con Docker y la configuración de bases de datos eran básicos. Sabía cómo crear contenedores, pero no tenía experiencia práctica con la interacción entre contenedores y herramientas específicas como Postgres y pgAdmin. Además, desconocía detalles clave sobre cómo gestionar variables de entorno en Docker, el uso de clientes para administrar bases de datos en un entorno contenedorizado, y la manipulación de datos en bases de datos SQL desde un cliente gráfico como pgAdmin.
