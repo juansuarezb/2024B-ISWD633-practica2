@@ -19,8 +19,7 @@ Para crear un contenedor de Jenkins con los puertos necesarios para la interfaz 
 docker run -d --name jenkins-server --publish published=8080,target=8080 --publish published=50000,target=50000 jenkins/jenkins:alpine3.18-jdk11 <br>
 
 
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
-
+![Imagen](img/1.png)
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
@@ -38,7 +37,7 @@ El comando ls en sistemas basados en Unix se utiliza para listar los archivos y 
 ### ¿Para qué sirve el argumento -l junto al comando ls? <br>
 El argumento -l junto al comando ls muestra los archivos en un formato largo (long listing format), proporcionando información adicional sobre cada archivo o directorio. <br>
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
-Imagen 4
+![Imagen](img/4.png)
 
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
@@ -73,7 +72,7 @@ Ejecutar
 ```
 whoami
 ```
-# COLOCAR UNA CAPTURA DE PANTALLA
+![Imagen](img/5.png)
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando ls.
@@ -92,10 +91,10 @@ docker exec -it <nombre contenedor> <programa o comando>
 ```
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
-Imagen 3
+![Imagen](img/1.png)
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
-
+![Imagen](img/6.png)
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
 
