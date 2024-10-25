@@ -12,21 +12,21 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 
 ### Crear un contenedor a partir de la imagen de nginx:alpine con las siguientes variables de entorno: username y role. Para la variable de entorno rol asignar el valor admin.
 
-Imagen 7
+![Imagen](img/7.png)
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
-
+![Imagen](img/8.png)
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
-IMAGEN 9
+![Imagen](img/9.png)
 
 ### ¿El contenedor se está ejecutando?
-IMAGEN 10
+![Imagen](img/10.png)
 
 ### Identificar el problema
 El contenedor se está ejecuntado de manera correcta y no existe problema.
 
 ### Eliminar el contenedor creado con mysql:8 
-# COMPLETAR
+![Imagen](img/11.png)
 
 ### Para crear un contenedor con variables de entorno especificadas
 - Portabilidad: Las aplicaciones se vuelven más portátiles y pueden ser desplegadas en diferentes entornos (desarrollo, pruebas, producción) simplemente cambiando el archivo de variables de entorno.
@@ -43,10 +43,9 @@ docker run -d --name <nombre contenedor> --env-file=<nombreArchivo>.<extensión>
 Es necesario especificar la ruta absoluta del archivo si este se encuentra en una ubicación diferente a la que estás ejecutando el comando docker run.
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
-IMAGEN 12
+![Imagen](img/12.png)
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
-
+![Imagen](img/13.png)
 ### ¿Qué bases de datos existen en el contenedor creado?
-# COMPLETAR
-Imagen 14
+![Imagen](img/14.png)
